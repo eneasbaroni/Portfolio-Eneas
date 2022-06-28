@@ -1,0 +1,8 @@
+.navbarContainer {
+  height: 1.2rem;  
+}
+
+.navItem {
+  font-size: 0.9rem;
+  width: auto !important;  
+}

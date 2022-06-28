@@ -1,11 +1,11 @@
 /* MIS ESTILOS */
 :root {
-  --main-color: #352556;
-  --second-color: #e9e9ee;
-  --third-color: #5E8EB0;
-  --main-bg: #d58eb0;
-  --second-bg: #785063;
-  --main-boder: solid (var(--main-color)) 1px;
+  --main-color: #191919;
+  --second-color: #ece300;
+  --third-color: white;
+  --fourth-color: #e94f2d;
+  --main-bg: #f2eadf;
+  --second-bg: #babdb6;  
 }
 
 @font-face {
@@ -24,6 +24,10 @@
   color: var(--main-color);
 }
 
+.v {
+  border: 1px solid var(--fourth-color);
+}
+
 a {
   text-decoration: none;
   color: var(--main-color);
@@ -38,10 +42,11 @@ p, label, input, .form-control {
   margin: 0;                         
   padding: 0;  
   font-weight: 400;  
+  color: var(--main-color);
 }
 
 .divContainer {
-  min-height: calc(100vh - 11rem);
+  min-height: calc(100vh - 2.45rem);
 }
 
 .h1 {
@@ -49,6 +54,32 @@ p, label, input, .form-control {
   font-size: 100px;   
   letter-spacing: 0.1rem;
   font-weight: 100;   
+ /*  line-height: 10rem; */
+}
+
+.h1b {
+  font-family: "Helvetica-Compressed";
+  font-size: 100px;   
+  letter-spacing: 0.1rem;
+  font-weight: 100;   
+  color: var(--third-color);
+ /*  line-height: 10rem; */
+}
+
+.h0 {
+  font-family: "Helvetica-Compressed";
+  font-size: 10rem;   
+  letter-spacing: 0.1rem;
+  font-weight: 100;   
+ /*  line-height: 10rem; */
+}
+
+.h0b {
+  font-family: "Helvetica-Compressed";
+  font-size: 10rem;   
+  letter-spacing: 0.1rem;
+  font-weight: 100;   
+  color: var(--third-color);
  /*  line-height: 10rem; */
 }
 
