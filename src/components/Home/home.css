@@ -1,16 +1,3 @@
-:root {
-  --main-color: #191919;
-  --second-color: #ece300;
-  --third-color: white;
-  --fourth-color: #e94f2d;
-  --main-bg: #f2eadf;
-  --second-bg: #babdb6;    
-}
-
-@font-face {
-  font-family: 'Helvetica-Compressed';  
-  src: url("../../assets/Helvetica-Compressed.otf");
-}
 
 .logo {
   object-fit: contain;
@@ -20,8 +7,7 @@
   margin-top: -4rem;
 }
 
-.subtitle {  
-  font-family: "Helvetica-Compressed";
+.subtitle {    
   font-size: 1.5rem;
   margin: -2rem 0 1rem 0;
 }

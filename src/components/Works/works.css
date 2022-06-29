@@ -1,0 +1,23 @@
+.worksContainer {
+  width: 100vw;
+  margin-left: -3rem;
+  padding: 0 3rem;
+  background-color: #f8f8f8;
+}
+
+.workImg {
+  border: solid #191919 1px;
+  padding: 1rem;
+}
+
+.workTitle {
+  cursor: pointer;
+}
+
+.workTitle, .workType, .workDescription, .workLink {
+  color: #9b9797;
+}
+
+.activeWork {
+  color: #191919;
+}

@@ -1,10 +1,8 @@
-:root {
-  --main-color: #191919;
-  --second-color: #ece300;
-  --third-color: white;
-  --fourth-color: #e94f2d;
-  --main-bg: #f2eadf;
-  --second-bg: #babdb6;  
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
 }
 
 .languageSelector {

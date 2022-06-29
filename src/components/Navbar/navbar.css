@@ -1,8 +1,19 @@
-.navbarContainer {
-  height: 1.2rem;  
+
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.linkHome {
+  font-size: 1.5rem;
 }
 
 .navItem {
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 0.9rem;
-  width: auto !important;  
+  font-weight: 500;
+  width: auto !important; 
 }

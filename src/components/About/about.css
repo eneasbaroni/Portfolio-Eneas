@@ -1,4 +1,12 @@
-.hola {
-  align-items: end !important;
-  justify-content: end;  
+
+.selfie {
+  margin: 1rem;
+  border-radius: 50%;  
+  height: 50vh;
+  width: 50vh !important;
+  object-fit: cover;
+}
+
+.about p {
+  font-size: 1.5rem;
 }
