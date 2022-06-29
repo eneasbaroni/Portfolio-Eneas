@@ -1,5 +1,20 @@
+:root {
+  --main-color: #191919;
+  --second-color: #ece300;
+  --third-color: white;
+  --fourth-color: #e94f2d;
+  --main-bg: #f2eadf;
+  --second-bg: #babdb6;  
+}
+
 .languageSelector {
-  width: auto;
+  width: auto !important;
   margin: 0 0.1rem;
   cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.languageSelector:hover {
+  color: var(--fourth-color);
 }
