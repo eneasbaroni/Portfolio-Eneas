@@ -13,23 +13,23 @@ const Home = () => {
 
 
   return (
-    <div className="divContainer col-12 m-auto row align-items-center justify-content-end"  id="home"> 
+    <div className="divContainer col-12 m-auto row align-items-center justify-content-center justify-content-sm-end"  id="home"> 
       {/* <div className="col-7"></div>    */}  
-      <div className="col-5 row">
+      <div className="col-12 col-sm-7 col-lg-5  row text-center text-sm-start ">
         {lang === "esp"
         ?
           <>          
-            <h1 className='h1 col-10 mb-4'>Desarrollador Web y diseñador gráfico de Córdoba, Argentina</h1>
-            <p>Hola! Mi nombre es Eneas.</p>
-            <p>Soy desarrollador Web y Arquitecto.</p>
-            <p>Actualmente me encuentro trabajando como freelance</p>   
+            <h1 className='h1 mb-4'>Desarrollador Web y diseñador gráfico de Córdoba, Argentina</h1>
+            <p className="mainText">Hola! Mi nombre es Eneas.</p>
+            <p className="mainText">Soy desarrollador Web y Arquitecto.</p>
+            <p className="mainText">Actualmente me encuentro trabajando como freelance</p>   
           </>
         :
           <>          
-            <h1 className='h1 col-10 mb-4'>Web Developer and Graphic Designer based in Córdoba, Argentina</h1>
-            <p>Hi! I am Eneas.</p>
-            <p>I am a Web Developer and Architect.</p>
-            <p>Currently working as a freelance</p>   
+            <h1 className='h1 mb-4'>Web Developer and Graphic Designer based in Córdoba, Argentina</h1>
+            <p className="mainText">Hi! I am Eneas.</p>
+            <p className="mainText">I am a Web Developer and Architect.</p>
+            <p className="mainText">Currently working as a freelance</p>   
           </>
       }
       </div>

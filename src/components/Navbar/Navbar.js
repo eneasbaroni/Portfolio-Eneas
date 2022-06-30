@@ -28,11 +28,11 @@ const Navbar = () => {
   return (
 
     <>
-      <div className="header  px-md-5 px-3 mt-4 row">
-        <div className="col-12 px-1 row" style={{ border:`1px solid ${color}`}}>
+      <div className="header row">
+        <div className="col-12 px-2 row justify-content-between" style={{ border:`1px solid ${color}`}}>
 
-        <NavLink to="/"  className="col-9 linkHome " style={{ color:`${color}`}}>Eneas Baroni®</NavLink>              
-        <div className="navbarContainer col-3 row align-items-center  justify-content-between">
+        <NavLink to="/"  className="col-12 col-sm-4 linkHome text-center text-sm-start " style={{ color:`${color}`}}>Eneas Baroni®</NavLink>              
+        <div className="navbarContainer col-12 col-sm-8 row align-items-center justify-content-center justify-content-sm-end">
           {lang === "esp"
             ? 
               <>

@@ -20,10 +20,10 @@ const About = () => {
   }, [language])
 
   return (
-    <div className="divContainer col-12 row align-items-center justify-content-center" style={{opacity: `${visible}`}}>
-      <img className="col-4 selfie" src={`${me}`} alt="selfie"/>
+    <div className="divContainer aboutContainer col-12 row align-items-center justify-content-center" style={{opacity: `${visible}`}}>
+      <img className=" col-12 col-lg-4 selfie" src={`${me}`} alt="selfie"/>
       
-      <div className="col-4 about">
+      <div className="col-12 col-lg-4 about">
         {lang === "esp" 
           ?
             <>

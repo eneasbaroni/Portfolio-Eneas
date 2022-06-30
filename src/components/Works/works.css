@@ -1,8 +1,12 @@
 .worksContainer {
   width: 100vw;
+  min-height: 100vh;
   margin-left: -3rem;
+  margin-top: -4rem;
+  padding-top: 4rem !important;
+  margin-bottom: -2.4rem;
   padding: 0 3rem;
-  background-color: #f8f8f8;
+  background-color: #f8f8f8;  
 }
 
 .workImg {
@@ -14,8 +18,45 @@
   cursor: pointer;
 }
 
-.workTitle, .workType, .workDescription, .workLink {
+.workTitle, .workType, .workDescription, .workLink {  
   color: #9b9797;
+}
+
+.workType, .workDescription, .workLink {  
+  font-size: 1vw; 
+  font-weight: 100; 
+  letter-spacing: -0.03em;
+  line-height: 1.1em;
+}
+
+@media screen and (max-width: 1024px) {
+  .workType, .workDescription, .workLink { 
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .worksContainer {    
+    margin-left: -1rem; 
+    padding: 0 1rem;  
+  }  
+}
+
+
+@media screen and (max-width: 576px) {   
+  .workType, .workDescription, .workLink {  
+    font-size: 0.9rem;     
+  }
+  .worksContainer { 
+    margin-top: -5rem;
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+    margin-bottom: -5rem; 
+    margin-left: -2.05rem; 
+    padding: 0 1rem 0 2rem;   
+     
+  }
+  
 }
 
 .activeWork {

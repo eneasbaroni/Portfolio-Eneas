@@ -1,12 +1,50 @@
+.aboutContainer {
+  align-content: center;
+}
+
 
 .selfie {
   margin: 1rem;
   border-radius: 50%;  
-  height: 50vh;
-  width: 50vh !important;
+  height: 25vw;
+  width: 25vw !important;
   object-fit: cover;
 }
 
+
+
 .about p {
   font-size: 1.5rem;
+  font-size: 1.2vw; 
+  font-weight: 100; 
+  letter-spacing: -0.03em;
+  line-height: 1.1em;
+}
+
+@media screen and (max-width: 1200px) {    
+  .about p {  
+    font-size: 2vw;     
+  }
+}
+
+@media screen and (max-width: 992px) {    
+  
+  .selfie {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;  
+    height: 35vh;    
+    object-fit: cover;
+    width: 100vh !important;
+    margin-bottom: 1rem;    
+  } 
+  
+}
+
+
+@media screen and (max-width: 576px) {   
+  .about p {  
+    font-size: 0.9rem;     
+  }
+  
 }
