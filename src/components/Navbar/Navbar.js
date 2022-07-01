@@ -11,8 +11,7 @@ const Navbar = () => {
 
   let location = useLocation();    
 
-  useEffect(() => {    
-    console.log(location)
+  useEffect(() => {
     if (location.pathname === "/works") {
       setColor("#191919")
     }else{
@@ -31,12 +30,13 @@ const Navbar = () => {
       <div className="header row">
         <div className="col-12 px-2 row justify-content-between" style={{ border:`1px solid ${color}`}}>
 
-        <NavLink to="/"  className="col-12 col-sm-4 linkHome text-center text-sm-start " style={{ color:`${color}`}}>Eneas Baroni®</NavLink>              
+        <NavLink to="/"  className="col-12 col-sm-4 linkHome text-center text-sm-start " style={{ color:`${color}`}}>Eneas Baroni ®</NavLink>              
         <div className="navbarContainer col-12 col-sm-8 row align-items-center justify-content-center justify-content-sm-end">
           {lang === "esp"
             ? 
               <>
                 {/* <NavLink to="/"  className="navItem">INICIO</NavLink> */}
+                <NavLink to="/"  className="navItem" style={{ color:`${color}`}}>INICIO</NavLink>
                 <NavLink to="/about"  className="navItem" style={{ color:`${color}`}}>SOBRE MI</NavLink>
                 <NavLink to="/works"  className="navItem" style={{ color:`${color}`}}>TRABAJOS</NavLink>
                 <NavLink to="/contact"  className="navItem" style={{ color:`${color}`}}>CONTACTO</NavLink>
@@ -44,6 +44,7 @@ const Navbar = () => {
             :
               <>
                 {/* <NavLink to="/"  className="navItem">HOME</NavLink> */}
+                <NavLink to="/"  className="navItem" style={{ color:`${color}`}}>HOME</NavLink>
                 <NavLink to="/about"  className="navItem" style={{ color:`${color}`}}>ABOUT</NavLink>
                 <NavLink to="/works"  className="navItem" style={{ color:`${color}`}}>WORKS</NavLink>
                 <NavLink to="/contact"  className="navItem" style={{ color:`${color}`}}>CONTACT</NavLink>

@@ -5,7 +5,9 @@ import "./footer.css"
 
 const Footer = () => {
   const [color, setColor] = useState("")
+  const [development, setDevelopment] = useState(false)
   const {handleLanguage} = useContext (LanguageContext)
+  
 
   let location = useLocation();
   
@@ -18,15 +20,31 @@ const Footer = () => {
     }    
   }, [location])
 
+  useEffect(() => {    
+    console.log(location)
+    if (location.pathname === "/contact") {
+      setDevelopment(true)
+    }else {
+      setDevelopment(false)
+    }    
+  }, [location])
+
 
   
   return (
     <div className="footer pb-4 row">
       <div className="col-12 px-1 row justify-content-between">
         <div className="navbarContainer col-12 col-sm-8 row justify-content-center justify-content-sm-start">
-          <a className="navItem" href="https://www.instagram.com/mr_eneas/" target="_blank" rel="noreferrer" style={{ color:`${color}`}}>INSTAGRAM</a>
-          <a className="navItem" href="https://github.com/eneasbaroni" target="_blank" rel="noreferrer" style={{ color:`${color}`}}>GITHUB</a>
-          <a className="navItem" href="https://www.linkedin.com/in/eneasbaroni" target="_blank" rel="noreferrer" style={{ color:`${color}`}}>LINKEDIN</a>
+          {development
+            ?
+              <p className="navItem">Design and development by Eneas Baroni</p>
+            :
+              <>
+                <a className="navItem" href="https://www.instagram.com/mr_eneas/" target="_blank" rel="noreferrer" style={{ color:`${color}`}}>INSTAGRAM</a>
+                <a className="navItem" href="https://github.com/eneasbaroni" target="_blank" rel="noreferrer" style={{ color:`${color}`}}>GITHUB</a>
+                <a className="navItem" href="https://www.linkedin.com/in/eneasbaroni" target="_blank" rel="noreferrer" style={{ color:`${color}`}}>LINKEDIN</a>
+              </>
+          }
         </div>        
         <div className="col-12 mt-2 mt-sm-0 col-sm-4 row justify-content-center justify-content-sm-end">
           <div className="languageSelector" onClick={() => handleLanguage("eng")} style={{ color:`${color}`}}>EN</div>

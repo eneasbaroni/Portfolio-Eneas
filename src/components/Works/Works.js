@@ -32,18 +32,18 @@ const Works = () => {
   }   
   
   return (
-    <div className="worksContainer">
-      <div className="divContainer col-12 m-auto row align-items-center justify-content-start" style={{opacity: `${visible}`}}>
-        <div className="col-12 col-md-6" >
-          {esp.map ((el, i) => {
-            return (
-              <Work work={el} setCurrent={setcurrent} key={i} id={i} currentId={currentId}/>                    
-              )
-            })}  
-        </div>
-      { windowSize > 768 && <img className="col-6 workImg" src={currentw} alt="workImg"/>}
+    
+    <div className="divContainer col-12 m-auto row align-items-center justify-content-start" style={{opacity: `${visible}`}}>
+      <div className="col-12 col-md-6 worksContainer" >
+        {esp.map ((el, i) => {
+          return (
+            <Work work={el} setCurrent={setcurrent} key={i} id={i} currentId={currentId}/>                    
+            )
+          })}  
       </div>
+      { windowSize > 768 && <img className="col-6 workImg" src={currentw} alt="workImg"/>}
     </div>
+    
   )
 }
 

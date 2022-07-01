@@ -8,20 +8,20 @@ const Work = ({work, setCurrent, id, currentId}) => {
       {currentId === id 
         ?
           <>
-            <div>
-              <h1 className="activeWork h1 mt-2 workTitle" id={id} onClick={(e) =>setCurrent(id)}>{work.title}</h1>
+            <div className="work">
+              <h1 className="activeWork mt-2 h1" id={id} onClick={(e) =>setCurrent(id)}>{work.title.toUpperCase()}</h1>
               <p className="activeWork workType">{work.type}</p>
-              <p className="activeWork workDescription">{work.description}</p>
-              <p className="activeWork workLink">Visita el Proyecto →</p>
+              <p className="activeWork workDescription">{work.description}</p>              
+              <a className="activeWork workLink" href={`${work.web}`} target="_blank" rel="noreferrer">Visita el Proyecto →</a>
             </div>
           </>
         :
           <>
-            <div >
-              <h1 className="h1 mt-2 workTitle" id={id} onClick={(e) =>setCurrent(id)}>{work.title}</h1>
+            <div className="work">
+              <h1 className="mt-2 h1" id={id} onClick={(e) =>setCurrent(id)}>{work.title.toUpperCase()}</h1>
               <p className="workType">{work.type}</p>
               <p className="workDescription">{work.description}</p>
-              <p className="workLink">Visita el Proyecto →</p>
+              <a className="workLink" href={`${work.web}`} target="_blank" rel="noreferrer">Visita el Proyecto →</a>              
             </div>
           </>
       }

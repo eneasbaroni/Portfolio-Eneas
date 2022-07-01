@@ -1,50 +1,73 @@
 .aboutContainer {
-  align-content: center;
+  align-content: space-between;
 }
-
 
 .selfie {
   margin: 1rem;
-  border-radius: 50%;  
+  border-radius: 0;  
   height: 25vw;
-  width: 25vw !important;
+  width: 50vw !important;
   object-fit: cover;
 }
 
+.aboutText {
+  align-content: flex-start;
+  padding: 0.5rem 1rem 0 0;  
+  border-top: solid 1px white;   
+}
 
+.aboutText h2 {  
+  font-size: 2vw; 
+  font-weight: 100; 
+  letter-spacing: -0.03em; 
+  line-height: 1.1em;
+}
 
-.about p {
-  font-size: 1.5rem;
-  font-size: 1.2vw; 
+.aboutText p {  
+  font-size: 1vw; 
   font-weight: 100; 
   letter-spacing: -0.03em;
   line-height: 1.1em;
 }
 
 @media screen and (max-width: 1200px) {    
-  .about p {  
-    font-size: 2vw;     
+  .aboutText h2 {  
+    font-size: 2.4vw;     
+  }
+  .aboutText p {  
+    font-size: 1.2vw;     
   }
 }
 
-@media screen and (max-width: 992px) {    
-  
+@media screen and (max-width: 992px) {  
   .selfie {
     margin: 0;
     padding: 0;
     border-radius: 0;  
-    height: 35vh;    
+    height: 50vw !important;    
+    width: 100vw !important;
     object-fit: cover;
-    width: 100vh !important;
     margin-bottom: 1rem;    
-  } 
-  
+  }   
 }
 
+@media screen and (max-width: 768px) {  
+  .aboutText {    
+    padding-left: 50%;  
+    padding-right: 0;  
+  } 
+ 
+}
 
 @media screen and (max-width: 576px) {   
-  .about p {  
-    font-size: 0.9rem;     
+  .aboutText h2 {  
+    font-size: 4vw;     
+  }
+  .aboutText p {  
+    font-size: 2vw;     
+  }
+  .aboutText {    
+    padding-left: 20%;  
   }
   
 }

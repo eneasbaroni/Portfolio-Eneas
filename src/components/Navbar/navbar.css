@@ -1,5 +1,3 @@
-
-
 .header {  
   width: 100%;
   margin-top: 1rem;  
@@ -11,23 +9,30 @@
 
 .navItem {
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 1.2vw; 
+  font-size: 0.8rem; 
   font-weight: 100; 
   letter-spacing: -0.03em;
   line-height: 1.1em;
-  padding: 0 0.5rem;
+  margin: 0 0.5rem;
   width: auto !important; 
 }
 
-@media screen and (max-width: 1024px) {    
-  .navItem {  
-    font-size: 1.9vw;     
+@media screen and (max-width: 992px) {
+  .navItem { 
+    font-size: 0.65rem;
+  }
+  .linkHome {
+    font-size: 1.1rem;
   }
 }
 
-@media screen and (max-width: 576px) {   
-  .navItem {  
-    font-size: 0.9rem;     
+@media screen and (max-width: 576px) {
+  .navItem { 
+    font-size: 0.5rem;
   }
-  
+  .linkHome {
+    font-size: 0.8rem;
+  }
 }
+
+

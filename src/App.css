@@ -40,7 +40,7 @@
 
 a {
   text-decoration: none;
-  color: var(--main-color);
+  color: var(--main-color);  
 }
 
 a:hover {
@@ -65,13 +65,13 @@ p, label, input, .form-control {
 
 .h1 { 
   font-family: 'Anek Latin', sans-serif;
-  font-size: 3.5vw; 
+  font-size: 3vw; 
   line-height: 1em;
-  font-weight: 400;    
+  font-weight: 400; 
 }
 
 .mainText {  
-  font-size: 1.2vw; 
+  font-size: 1vw; 
   font-weight: 100; 
   letter-spacing: -0.03em;
   line-height: 1.1em;
@@ -90,26 +90,24 @@ input {
 
 .App {
   padding-top: 1rem;
-  min-height: 100vh;
-  background: var(--second-bg);  
-  background: var(--main-bg);    
+  min-height: 100vh;  
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .h1 {     
-    font-size: 5vw;      
+    font-size: 3.5vw;      
   }  
   .mainText {  
-    font-size: 2vw;     
+    font-size: 1.2vw;     
   }
 }
 
 @media screen and (max-width: 576px) {
   .h1 {     
-    font-size: 2rem;      
+    font-size: 5.8vw;      
   }  
   .mainText {  
-    font-size: 0.9rem;     
+    font-size: 2.5vw;     
   }
   
 }
