@@ -56,15 +56,21 @@
     padding-left: 50%;  
     padding-right: 0;  
   } 
+  .aboutText p {  
+    font-size: 2vw;     
+  }
+  .aboutText {    
+    padding-left: 20%;  
+  }
  
 }
 
 @media screen and (max-width: 576px) {   
   .aboutText h2 {  
-    font-size: 4vw;     
+    font-size: 6vw;     
   }
   .aboutText p {  
-    font-size: 2vw;     
+    font-size: 3vw;     
   }
   .aboutText {    
     padding-left: 20%;  
