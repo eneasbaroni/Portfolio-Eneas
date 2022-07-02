@@ -17,10 +17,10 @@ const About = () => {
 
   useEffect(() => {
     setLang(language)  
-    console.log(lang)  
+    
   }, [language])
 
-
+  console.log(lang)
 
   return (
     <div className="divContainer aboutContainer col-12 row" style={{opacity: `${visible}`}}>
