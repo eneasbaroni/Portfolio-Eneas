@@ -32,15 +32,15 @@ const About = () => {
       </div>
       <div className="col-12 row justify-content-center justify-content-md-end">
         <div className="col-12 col-md-4 text-end text-md-start row aboutText justify-content-center mt-3 mt-md-0">
-          <h2>ARQUITECTO</h2>
+          <h2 className="h1">ARQUITECTO</h2>
           <p>Soy Arquitecto, recibido de la UNC. Tengo pasión por la arquitectura minimalista y brutalista. Un gran amor al hormigon y el metal</p>        
         </div>
         <div className="col-12 col-md-4 text-end text-md-start row aboutText justify-content-center mt-3 mt-md-0">
-          <h2>DISEÑADOR</h2>
+          <h2 className="h1">DISEÑADOR</h2>
           <p>Desde chico fui un curioso del arte, y poder llevar eso hacia el diseño fue el camino que marco mi vida. En los años de facultad hice diferentes cursos de diseño gráfico que me permitieron adentrarme en la resolucion de problemas mediante el diseño</p>                       
         </div>
         <div className="col-12 col-md-4 text-end text-md-start row aboutText justify-content-center mt-3 mt-md-0">
-          <h2>DESARROLLADOR</h2>
+          <h2 className="h1">DESARROLLADOR</h2>
           <p>De la union del arte, diseño, y la capacidad de poder crear cosas desde cero es que nace esta nueva faceta como desarrolador web. Donde me permito conjugar todas las experiencias y aptitudes adquiridas</p>
         </div>
       </div>

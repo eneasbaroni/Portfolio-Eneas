@@ -33,8 +33,8 @@ const Footer = () => {
   
   return (
     <div className="footer pb-4 row">
-      <div className="col-12 px-1 row justify-content-between">
-        <div className="navbarContainer col-12 col-sm-8 row justify-content-center justify-content-sm-start">
+      <div className="col-12 px-1 row justify-content-between aling-items-center">
+        <div className="navbarContainer col-8 row aling-items-center justify-content-start">
           {development
             ?
               <p className="navItem">Design and development by Eneas Baroni</p>
@@ -46,7 +46,7 @@ const Footer = () => {
               </>
           }
         </div>        
-        <div className="col-12 mt-2 mt-sm-0 col-sm-4 row justify-content-center justify-content-sm-end">
+        <div className="col-4 mt-0 0 row justify-content-end">
           <div className="languageSelector" onClick={() => handleLanguage("eng")} style={{ color:`${color}`}}>EN</div>
           <div className="languageSelector" style={{ color:`${color}`}}>/</div>
           <div className="languageSelector"onClick={() => handleLanguage("esp")} style={{ color:`${color}`}}>ES</div>

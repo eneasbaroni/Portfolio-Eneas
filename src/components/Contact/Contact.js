@@ -36,7 +36,7 @@ const Contact = () => {
       }
       </div>
       <div className='col-12 row'>
-        <a href="#medias" className='media'><p className='media'>🡫</p></a>        
+        <a href="#medias" className='media'><p className='media'>↓</p></a>        
         <seccion className='medias col-12 row aling-items-center' id="medias">
           {lang === "esp"
             ? 

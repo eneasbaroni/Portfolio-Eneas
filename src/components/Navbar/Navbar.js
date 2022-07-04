@@ -30,8 +30,8 @@ const Navbar = () => {
       <div className="header row">
         <div className="col-12 px-2 row justify-content-between" style={{ border:`1px solid ${color}`}}>
 
-        <NavLink to="/"  className="col-12 col-sm-4 linkHome text-center text-sm-start " style={{ color:`${color}`}}>Eneas Baroni ®</NavLink>              
-        <div className="navbarContainer col-12 col-sm-8 row align-items-center justify-content-center justify-content-sm-end">
+        <NavLink to="/"  className=" col-4 linkHome  text-start" style={{ color:`${color}`}}>Eneas Baroni ®</NavLink>              
+        <div className="navbarContainer col-8 row align-items-center  justify-content-end">
           {lang === "esp"
             ? 
               <>

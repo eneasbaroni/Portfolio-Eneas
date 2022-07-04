@@ -16,12 +16,7 @@
   border-top: solid 1px white;   
 }
 
-.aboutText h2 {  
-  font-size: 2vw; 
-  font-weight: 100; 
-  letter-spacing: -0.03em; 
-  line-height: 1.1em;
-}
+
 
 .aboutText p {  
   font-size: 1vw; 
@@ -30,10 +25,7 @@
   line-height: 1.1em;
 }
 
-@media screen and (max-width: 1200px) {    
-  .aboutText h2 {  
-    font-size: 2.4vw;     
-  }
+@media screen and (max-width: 1200px) {
   .aboutText p {  
     font-size: 1.2vw;     
   }
@@ -65,10 +57,7 @@
  
 }
 
-@media screen and (max-width: 576px) {   
-  .aboutText h2 {  
-    font-size: 6vw;     
-  }
+@media screen and (max-width: 576px) { 
   .aboutText p {  
     font-size: 3vw;     
   }

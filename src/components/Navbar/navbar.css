@@ -14,7 +14,8 @@
   letter-spacing: -0.03em;
   line-height: 1.1em;
   margin: 0 0.5rem;
-  width: auto !important; 
+  width: auto !important;  
+  align-self: center !important;     
 }
 
 @media screen and (max-width: 992px) {

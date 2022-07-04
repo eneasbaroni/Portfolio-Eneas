@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <div className="divContainer col-12 m-auto row align-items-center justify-content-center justify-content-sm-end"  id="home" style={{opacity: `${visible}`}}> 
       {/* <div className="col-7"></div>    */}  
-      <div className="col-12 col-sm-5 row text-center text-sm-start ">
+      <div className="col-12 col-sm-5 row text-start">
         {lang === "esp"
         ?
           <>          
@@ -33,7 +33,7 @@ const Home = () => {
           </>
         :
           <>          
-            <h1 className='h1 mb-4'>Web Developer and Graphic Designer based in Córdoba, Argentina</h1>
+            <h1 className='h1 mb-4'>{("Web Developer and Graphic Designer based in Córdoba, Argentina").toLocaleUpperCase()}</h1>
             <p className="mainText">Hi! I am Eneas.</p>
             <p className="mainText">I am a Web Developer, grapgic designer and Architect.</p>
             <p className="mainText">Currently working as a freelance</p>   
