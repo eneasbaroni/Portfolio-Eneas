@@ -12,11 +12,6 @@
   margin-top: 1vw;      
 }
 
-.mailme:hover {
-  cursor: url('/src/logo3-01.svg'), auto; 
-}
-
-
 .media {
   margin-top: 40vh;
   font-size: 2vw !important;  

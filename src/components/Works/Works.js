@@ -57,7 +57,7 @@ const Works = () => {
        <Loader/>
       :
         <>
-          <div className="col-12 col-md-6 worksContainer">
+          <div className="col-12 col-md-4 worksContainer">
             {lang === "esp"
               ?
                 <>
@@ -77,7 +77,7 @@ const Works = () => {
                 </>
             }
           </div>
-          { windowSize > 768 && <img className="col-6 workImg" src={currentw} alt="workImg"/>}
+          { windowSize > 767 && <img className="col-8 workImg" src={currentw} alt="workImg"/>}
         </>
       }                
     </div>

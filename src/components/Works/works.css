@@ -95,7 +95,7 @@
   }
 }
 
-@media screen and (max-width: 769px) { 
+@media screen and (max-width: 767px) { 
   .work {
     border-bottom: #191919 solid 1px;
     padding-bottom: 0.5rem;
