@@ -5,8 +5,7 @@
 .selfie {
   margin: 1rem;
   border-radius: 0;  
-  height: 60vh;
-  /* width: 50vw !important; */
+  height: 60vh;  
   object-fit: cover;  
   object-position: center;
 }
@@ -19,7 +18,7 @@
 
 .aboutText p {  
   font-size: 1vw; 
-  font-weight: 100; 
+  font-weight: 200; 
   letter-spacing: -0.03em;
   line-height: 1.1em;
 }
