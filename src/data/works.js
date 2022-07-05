@@ -16,7 +16,7 @@ const esp = [
   {    
     title: "Picante",
     type: "2021/Freelance",
-    description: "Sitio Web para Picante Serigrafía, un emprendimiento de arte e serigrafía. El sitio cuenta ",
+    description: "Sitio Web Institucional para Picante Serigrafía",
     url: "/images/picante.png",
     web: "https://picante-serigrafia.netlify.app/"
   }
