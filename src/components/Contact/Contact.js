@@ -20,7 +20,7 @@ const Contact = () => {
   }, [language])
 
   return (
-    <div className="divContainer contactContainer col-12 row text-center" style={{opacity: `${visible}`}}>
+    <div className="divContainer contactContainer col-12 row text-center" id='mailme' style={{opacity: `${visible}`}}>
       <div className='col-12 projectMind'>
       {lang === "esp"
         ? 
@@ -36,8 +36,9 @@ const Contact = () => {
       }
       </div>
       <div className='col-12 row'>
-        <a href="#medias" className='media'><p className='media'>↓</p></a>        
-        <seccion className='medias col-12 row aling-items-center' id="medias">
+        <a href="#medias" className='media'><p>↓</p></a>        
+        <a href="#app" className='mailmeArrow'><p>↑</p></a>        
+        <div className='medias col-12 row aling-items-center' id="medias">
           {lang === "esp"
             ? 
               <p className='mainText'>o puedes encontrame en las redes</p>
@@ -49,10 +50,10 @@ const Contact = () => {
           <div><a className="mediaLink h1" href="https://github.com/eneasbaroni" target="_blank" rel="noreferrer">GITHUB</a></div>
           <div><a className="mediaLink h1" href="https://www.linkedin.com/in/eneasbaroni" target="_blank" rel="noreferrer">LINKEDIN</a></div>
           <a className="cv col-12 row" href="/docs/cv.pdf" target="_blank" rel="noreferrer" download>
-            <p className='mainText'>Resumen</p>
-            <p className='mainText'>↓</p>
+            <p className='mainText'>CV</p>
+            <p className='mainText'>=</p>
           </a>
-        </seccion>
+        </div>
       </div>      
     </div>
   )

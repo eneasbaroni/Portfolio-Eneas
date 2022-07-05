@@ -17,7 +17,7 @@ const AppContainer = (props) => {
 
 
   return (
-    <div className="App px-md-5 px-3" style={{ backgroundColor:`${color}`}}>
+    <div className="App px-md-5 px-3" id="app" style={{ backgroundColor:`${color}`}}>
       {props.children}
     </div>
   )

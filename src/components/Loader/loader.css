@@ -1,0 +1,36 @@
+.loaderContainer {
+    width: 100vw;
+    height: 100vh;  
+    margin-top: 30vh;
+    justify-content: center !important;
+    align-items: center !important;
+    align-content: center !important;
+  }
+  
+  .loader {
+    display: flex;
+    width: 55px;
+    height: 55px;
+    margin: 0 auto;  
+  }
+  
+  .loader:after {
+    content: " ";
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #191919;
+    border-color: #191919 transparent #191919 transparent;
+    animation: loader 1.2s linear infinite;
+  }
+  
+  @keyframes loader {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

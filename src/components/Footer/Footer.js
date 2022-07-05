@@ -11,8 +11,7 @@ const Footer = () => {
 
   let location = useLocation();
   
-  useEffect(() => {    
-    console.log(location)
+  useEffect(() => { 
     if (location.pathname === "/works") {
       setColor("#191919")
     }else{
@@ -20,8 +19,7 @@ const Footer = () => {
     }    
   }, [location])
 
-  useEffect(() => {    
-    console.log(location)
+  useEffect(() => {   
     if (location.pathname === "/contact") {
       setDevelopment(true)
     }else {

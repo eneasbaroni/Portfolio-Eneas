@@ -18,13 +18,20 @@
 
 
 .media {
-  margin-top: 45vh;
+  margin-top: 40vh;
   font-size: 2vw !important;  
-
 }
 
+.mailmeArrow {
+  margin-top: 10rem;
+  font-size: 2vw !important;  
+  cursor: pointer;    
+}
+
+
+
 .medias {
-  margin-top: 5vh;
+  margin-top: 3vh;
   min-height: calc(100vh - 6.5rem);
   align-content: center;
 }

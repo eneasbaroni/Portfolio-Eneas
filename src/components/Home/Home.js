@@ -29,14 +29,14 @@ const Home = () => {
             <h1 className='h1 mb-4'>{("Desarrollador Web y diseñador gráfico de Córdoba, Argentina").toLocaleUpperCase()}</h1>
             <p className="mainText">Hola! Mi nombre es Eneas.</p>
             <p className="mainText">Soy desarrollador Web, diseñador gráfico y Arquitecto.</p>
-            <p className="mainText">Actualmente me encuentro trabajando como freelance</p>   
+            <p className="mainText">Actualmente me encuentro trabajando como desarrollador freelance</p>   
           </>
         :
           <>          
             <h1 className='h1 mb-4'>{("Web Developer and Graphic Designer based in Córdoba, Argentina").toLocaleUpperCase()}</h1>
             <p className="mainText">Hi! I am Eneas.</p>
             <p className="mainText">I am a Web Developer, grapgic designer and Architect.</p>
-            <p className="mainText">Currently working as a freelance</p>   
+            <p className="mainText">Currently working as a freelance developer</p>   
           </>
       }
       </div>
