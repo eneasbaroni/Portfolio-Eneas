@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react"
 import LanguageContext from "../../context/languageContext"
-import me from "../../assets/aboutImg.png"
+import me from "../../assets/portfolio.png"
 import "./about.css"
 
 const About = () => {
@@ -26,13 +26,13 @@ const About = () => {
       <div className="col-12 row">
         {lang === "esp"
           ?
-            <h1 className="h1 col-4 aling-self-start mb-3">APASIONADO CREATIVO RESOLUTIVO</h1>
+            <h1 className="h1 col-3 aling-self-start mb-3">APASIONADO CREATIVO RESOLUTIVO</h1>
           :
-            <h1 className="h1 col-4 aling-self-start mb-3">PASSIONATE CREATIVE RESOLUTIVE</h1>
+            <h1 className="h1 col-3 aling-self-start mb-3">PASSIONATE CREATIVE RESOLUTIVE</h1>
         }
       </div>
       <div className="col-12 row justify-content-center">
-        <img className=" col-12 col-lg-4 selfie" src={`${me}`} alt="selfie"/>
+        <img className=" col-12 selfie" src={`${me}`} alt="selfie"/>
       </div>
       <div className="col-12 row justify-content-center justify-content-md-end">
         {lang === "esp"
@@ -73,3 +73,4 @@ const About = () => {
 }
 
 export default About
+
