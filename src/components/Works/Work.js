@@ -21,8 +21,8 @@ const Work = ({work, setCurrent, id, currentId}) => {
               <p className="activeWork workType">{work.type}</p>
               <p className="activeWork workDescription">{work.description}</p>
               {lang === "esp"
-                ?<a className="activeWork workLink" href={`${work.web}`} target="_blank" rel="noreferrer">Visita el Proyecto +</a>
-                :<a className="activeWork workLink" href={`${work.web}`} target="_blank" rel="noreferrer">See the Project +</a>
+                ?<a className="activeWork workLink" href={`${work.web}`} target="_blank" rel="noreferrer">+ Visita el Proyecto</a>
+                :<a className="activeWork workLink" href={`${work.web}`} target="_blank" rel="noreferrer">+ See the Project</a>
               }
             </div>
           </>
