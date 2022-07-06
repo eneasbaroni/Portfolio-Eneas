@@ -30,7 +30,7 @@ const Footer = () => {
 
   
   return (
-    <div className="footer pb-4 row">
+    <div className="footer aling-items-center row">
       <div className="col-12 px-1 row justify-content-between aling-items-center">
         <div className="navbarContainer col-8 row aling-items-center justify-content-start">
           {development

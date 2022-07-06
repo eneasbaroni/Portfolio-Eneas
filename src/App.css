@@ -59,7 +59,8 @@ p, label, input, .form-control {
 
 .divContainer {
   padding: 2rem 0;
-  min-height: calc(100vh - 6.5rem);
+  /* 1rem paddin app 1rem margin navbar 28px navbar 2px border narvbar 1.5rem padding footer  */  
+  min-height: calc(100vh - 2rem - 28px - 2px - 1.5rem);
   transition: all 0.5s ease-in-out;
 }
 
