@@ -103,12 +103,23 @@ input {
   }
 }
 
+@media screen and (max-width: 992px) {
+  .divContainer {   
+    /* 1rem paddin app 1rem margin navbar 22px navbar 2px border narvbar 1.5rem padding footer  */  
+    min-height: calc(100vh - 2rem - 22px - 2px - 1.5rem);    
+  }
+}
+
 @media screen and (max-width: 576px) {
   .h1 {     
     font-size: 5.8vw;      
   }  
   .mainText {  
     font-size: 2.5vw;     
+  }
+  .divContainer {   
+    /* 1rem paddin app 1rem margin navbar 17px navbar 2px border narvbar 1.5rem padding footer  */  
+    min-height: calc(100vh - 2rem - 17px - 2px - 1.5rem);    
   }
   
 }
