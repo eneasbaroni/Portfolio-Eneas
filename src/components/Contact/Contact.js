@@ -21,7 +21,7 @@ const Contact = () => {
 
   return (
     <div className="divContainer contactContainer col-12 row text-center" id='mailme' style={{opacity: `${visible}`}}>
-      <div className='col-12 projectMind'>
+      <div className='col-12 projectMind row'>
       {lang === "esp"
         ? 
           <>
@@ -35,9 +35,9 @@ const Contact = () => {
           </>
       }
       </div>
-      <div className='col-12 row'>
         <a href="#medias" className='media'><p>↓</p></a>        
         <a href="#app" className='mailmeArrow'><p>↑</p></a>        
+      <div className='col-12 row'>
         <div className='medias col-12 row aling-items-center' id="medias">
           {lang === "esp"
             ? 
