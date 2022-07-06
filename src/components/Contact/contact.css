@@ -5,7 +5,8 @@
 }
 
 .projectMind {
-  margin-top: calc(30vh - 2rem);
+  min-height: calc(100vh - 2rem - 28px - 32px - 2px);  
+  align-content: center !important;
 }
 
 .contactContainer .h1 {
@@ -13,20 +14,22 @@
 }
 
 .media {
-  margin-top: 40vh;
-  font-size: 2vw !important;  
+  position: absolute;
+  top: calc(100vh - 2rem - 1rem);
+  right: 0;
+  font-size: 2rem !important;  
 }
 
 .mailmeArrow {
-  margin-top: 10rem;
-  font-size: 2vw !important;  
-  cursor: pointer;    
+  position: absolute;
+  top: 100vh ;
+  right: 0;
+  font-size: 2rem !important;    
 }
 
-.medias {
-  margin-top: 3vh;
-  min-height: calc(100vh - 6.5rem);
-  align-content: center;
+.medias {  
+  min-height: calc(100vh - 1.5rem - 32px);  
+  align-content: center !important;
 }
 
 .cv {
@@ -61,4 +64,37 @@
 .mediaLink:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+@media screen and (max-width: 992px) {  
+  .projectMind {
+    min-height: calc(100vh - 2rem - 22px - 32px - 2px);    
+  } 
+
+  .media {    
+    top: calc(100vh - 1.5rem - 0.75rem);    
+    font-size: 1.5rem !important;  
+  }
+
+  .mailmeArrow {       
+    font-size: 1.5rem !important;      
+  }
+  
+  
+}
+
+@media screen and (max-width: 576px) {  
+  .projectMind {
+    min-height: calc(100vh - 2rem - 17px - 32px - 2px);    
+  }
+  .media {    
+    top: calc(100vh - 1rem - 0.7rem);    
+    font-size: 1rem !important;  
+  }
+
+  .mailmeArrow {       
+    font-size: 1rem !important;      
+  }
+   
+  
 }
