@@ -1,6 +1,7 @@
 .header {  
   width: 100%;
   margin-top: 1rem;  
+  transition: all 0.5 ease-in-out;
 }
 
 .linkHome {
@@ -18,6 +19,10 @@
   align-self: center !important;     
 }
 
+.menu {
+  margin-top: -2px;
+}
+
 @media screen and (max-width: 992px) {
   .navItem { 
     font-size: 0.65rem;
@@ -29,6 +34,7 @@
 
 @media screen and (max-width: 576px) {
   .navItem { 
+    margin-top: 0.5rem;
     font-size: 0.5rem;
   }
   .linkHome {
