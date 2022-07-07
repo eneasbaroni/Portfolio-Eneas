@@ -33,13 +33,13 @@
 }
 
 @media screen and (max-width: 576px) {
-  .navItem { 
-    margin-top: 0.5rem;
+  .header .navbarContainer .navItem {     
+    padding-top: 0.5rem;
+  }
+  .navItem {     
     font-size: 0.5rem;
   }
   .linkHome {
     font-size: 0.8rem;
   }
 }
-
-
