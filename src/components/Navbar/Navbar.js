@@ -52,7 +52,7 @@ const Navbar = () => {
       <div className="header row">
         <div className="col-12 px-2 row justify-content-between" style={{ border:`1px solid ${color}`}}>
 
-        <NavLink to="/"  className=" col-7 col-sm-4 linkHome  text-start" style={{ color:`${color}`}}>Eneas Baroni ®</NavLink> 
+        <NavLink to="/"  className=" col-7 col-sm-4 linkHome  text-start" style={{ color:`${color}`}} onClick={() => setNavbarOpen(false)}>Eneas Baroni ®</NavLink>
         {windowSize < 576 &&
           (color === "#f2eadf"
             ?
