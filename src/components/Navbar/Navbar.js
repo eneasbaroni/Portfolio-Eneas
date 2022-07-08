@@ -81,9 +81,9 @@ const Navbar = () => {
                   <>
                     {/* <NavLink to="/"  className="navItem">HOME</NavLink> */}
                     {windowSize > 576 && <NavLink to="/"  className="navItem" style={{ color:`${color}`}}>HOME</NavLink>}
-                    <NavLink to="/about"  className="navItem" style={{ color:`${color}`}}>ABOUT</NavLink>
-                    <NavLink to="/works"  className="navItem" style={{ color:`${color}`}}>WORKS</NavLink>
-                    <NavLink to="/contact"  className="navItem" style={{ color:`${color}`}}>CONTACT</NavLink>
+                    <NavLink to="/about"  className="navItem" style={{ color:`${color}`}} onClick={() => setNavbarOpen(false)}>ABOUT</NavLink>
+                    <NavLink to="/works"  className="navItem" style={{ color:`${color}`}} onClick={() => setNavbarOpen(false)}>WORKS</NavLink>
+                    <NavLink to="/contact"  className="navItem" style={{ color:`${color}`}} onClick={() => setNavbarOpen(false)}>CONTACT</NavLink>
                   </>
               }            
             </div>
