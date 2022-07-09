@@ -12,8 +12,8 @@
 
 .aboutText {
   align-content: flex-start;
-  padding: 0.5rem 1rem 0 0;  
-  border-top: solid 1px white;   
+  padding: 0.5rem 0 0 0;  
+  border-top: solid 1px white;
 }
 
 .aboutText p {  
@@ -41,7 +41,7 @@
   }   
 }
 
-@media screen and (max-width: 768px) {  
+@media screen and (max-width: 767px) {  
   .aboutText {    
     padding-left: 50%;  
     padding-right: 0;  
