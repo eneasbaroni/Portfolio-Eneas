@@ -7,10 +7,10 @@ const AppContainer = (props) => {
   let location = useLocation();    
 
   useEffect(() => {        
-    if (location.pathname === "/works") {
-      setColor("#ececec")
-    }else{
+    if (location.pathname === "/works" || location.pathname === "/" ) {
       setColor("var(--main-bg)")
+    }else{
+      setColor("#090083")
     }    
   }, [location])
 
