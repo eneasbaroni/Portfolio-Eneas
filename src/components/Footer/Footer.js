@@ -3,21 +3,12 @@ import { useLocation } from "react-router-dom"
 import LanguageContext from "../../context/languageContext"
 import "./footer.css"
 
-const Footer = () => {
-  const [color, setColor] = useState("")
+const Footer = () => {  
   const [development, setDevelopment] = useState(false)
   const {handleLanguage} = useContext (LanguageContext)
   
 
   let location = useLocation();
-  
-  useEffect(() => { 
-    if (location.pathname === "/works") {
-      setColor("#191919")
-    }else{
-      setColor("#f2eadf")
-    }    
-  }, [location])
 
   useEffect(() => {   
     if (location.pathname === "/contact") {
@@ -38,16 +29,16 @@ const Footer = () => {
               <p className="navItem">Design and development by Eneas Baroni</p>
             :
               <>
-                <a className="navItem" href="https://www.instagram.com/mr_eneas/" target="_blank" rel="noreferrer" style={{ color:`${color}`}}>INSTAGRAM</a>
-                <a className="navItem" href="https://github.com/eneasbaroni" target="_blank" rel="noreferrer" style={{ color:`${color}`}}>GITHUB</a>
-                <a className="navItem" href="https://www.linkedin.com/in/eneasbaroni" target="_blank" rel="noreferrer" style={{ color:`${color}`}}>LINKEDIN</a>
+                <a className="navItem" href="https://www.instagram.com/mr_eneas/" target="_blank" rel="noreferrer">INSTAGRAM</a>
+                <a className="navItem" href="https://github.com/eneasbaroni" target="_blank" rel="noreferrer">GITHUB</a>
+                <a className="navItem" href="https://www.linkedin.com/in/eneasbaroni" target="_blank" rel="noreferrer">LINKEDIN</a>
               </>
           }
         </div>        
         <div className="col-4 mt-0 0 row justify-content-end">
-          <div className="languageSelector" onClick={() => handleLanguage("eng")} style={{ color:`${color}`}}>EN</div>
-          <div className="languageSelector" style={{ color:`${color}`}}>/</div>
-          <div className="languageSelector"onClick={() => handleLanguage("esp")} style={{ color:`${color}`}}>ES</div>
+          <div className="languageSelector" onClick={() => handleLanguage("eng")}>EN</div>
+          <div className="languageSelector">/</div>
+          <div className="languageSelector"onClick={() => handleLanguage("esp")}>ES</div>
         </div>
       </div>
 
