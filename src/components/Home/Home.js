@@ -65,15 +65,15 @@ const Home = () => {
                   <h1 className='h1'>WEB DEVELOPER </h1>
                   <h1 className='h1'>& GRAPHIC</h1>
                   <h1 className='h1 text-end'>DESIGNER FROM</h1>                  
-                  <h1 className='h1 text-end'>CORDOBA</h1>
-                  <h1 className='h1 mb-2'>ARGENTINA</h1>
+                  <h1 className='h1 text-end'>CORDOBA,</h1>
+                  <h1 className='h1 mb-2'>ARGENTINA.</h1>
                 </>  
               :
                 <>
                   <h1 className='h1'>WEB DEVELOPER </h1>
                   <h1 className='h1 text-end'>& GRAPHIC DESIGNER</h1>
-                  <h1 className='h1 text-center'>BASED IN CORDOBA</h1>
-                  <h1 className='h1 mb-2'>ARGENTINA</h1>
+                  <h1 className='h1 text-center'>BASED IN CORDOBA,</h1>
+                  <h1 className='h1 mb-2'>ARGENTINA.</h1>
                 </>  
             }     
             <p className="mainText">Hi! I am Eneas.</p>
