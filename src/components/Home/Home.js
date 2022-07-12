@@ -49,7 +49,7 @@ const Home = () => {
                 <>
                   <h1 className='h1'>DESARROLLADOR WEB</h1>
                   <h1 className='h1 text-end'>Y DISEÑADOR GRAFICO</h1>
-                  <h1 className='h1 text-center'>DE CORDOBA</h1>
+                  <h1 className='h1 text-center'>DE CORDOBA,</h1>
                   <h1 className='h1 mb-2'> ARGENTINA.</h1>
                 </>
             }        
