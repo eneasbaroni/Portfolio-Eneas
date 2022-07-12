@@ -8,7 +8,7 @@ const AppContainer = (props) => {
 
   useEffect(() => {        
     if (location.pathname === "/works") {
-      setColor("var(--main-color)")
+      setColor("#ececec")
     }else{
       setColor("var(--main-bg)")
     }    
