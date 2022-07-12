@@ -1,5 +1,5 @@
 .workImg {
-  border: solid #191919 1px;
+  border: solid 1px var(--main-color);
   padding: 1rem;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .worksContainer .h2:hover {
-  color: #191919;
+  color: var(--main-color);
 }  
 
 .worksContainer .h2 {     
@@ -44,7 +44,7 @@
   height: 3px;
   bottom: 0;
   left: 0;
-  background-color: #191919;
+  background-color: var(--main-color);
   transform-origin: bottom right;
   transition: transform 0.5s ease-out;
 }
@@ -57,7 +57,7 @@
 
 
 .workLink:hover {
-  color: #191919;
+  color: var(--main-color);
 }  
 
 .workLink {
@@ -76,7 +76,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #191919;
+  background-color: var(--main-color);
   transform-origin: bottom right;
   transition: transform 0.5s ease-out;
 }
@@ -96,7 +96,7 @@
 
 @media screen and (max-width: 767px) { 
   .work {
-    border-bottom: #191919 solid 1px;
+    border-bottom: var(--main-color) solid 1px;
     padding-bottom: 0.5rem;
     margin-left: 10%;
     margin-bottom: 0.5rem;
@@ -107,7 +107,7 @@
   } 
 
  .workType, .workDescription, .workLink, .worksContainer .h2 {  
-    color: #191919 !important;
+    color: var(--main-color) !important;
   }  
   .worksContainer {
     margin: 0 auto;  
@@ -122,5 +122,5 @@
 }
 
 .activeWork{
-  color: #191919 !important;
+  color: var(--main-color) !important;
 }
