@@ -2,6 +2,7 @@
   width: 100%;
   /* margin-top: 1rem;   */
   transition: all 0.5 ease-in-out;
+  border: solid 1px var(--main-color);
 }
 
 .linkHome {
