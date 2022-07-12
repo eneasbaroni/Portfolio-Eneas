@@ -17,7 +17,7 @@ const Work = ({work, setCurrent, id, currentId}) => {
         ?
           <>
             <div className="work">
-              <h1 className="activeWork mt-2 h1" id={id} onClick={(e) =>setCurrent(id)}>{work.title.toUpperCase()}</h1>
+              <h1 className="activeWork mt-2 h2" id={id} onClick={(e) =>setCurrent(id)}>{work.title.toUpperCase()}</h1>
               <p className="activeWork workType">{work.type}</p>
               <p className="activeWork workDescription">{work.description}</p>
               {lang === "esp"
@@ -29,7 +29,7 @@ const Work = ({work, setCurrent, id, currentId}) => {
         :
           <>
             <div className="work">
-              <h1 className="mt-2 h1" id={id} onClick={(e) =>setCurrent(id)}>{work.title.toUpperCase()}</h1>
+              <h1 className="mt-2 h2" id={id} onClick={(e) =>setCurrent(id)}>{work.title.toUpperCase()}</h1>
               <p className="workType">{work.type}</p>
               <p className="workDescription">{work.description}</p>
               {lang === "esp"

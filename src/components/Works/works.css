@@ -3,7 +3,7 @@
   padding: 1rem;
 }
 
-.worksContainer .h1 {
+.worksContainer .h2 {
   cursor: pointer;
 }
 
@@ -15,7 +15,7 @@
   letter-spacing: -0.05em;  
 }
 
-.worksContainer .h1, .workType, .workDescription, .workLink {  
+.worksContainer .h2, .workType, .workDescription, .workLink {  
   color: #9b9797;
 }
 
@@ -26,17 +26,17 @@
   margin-left: 0.4vw;  
 }
 
-.worksContainer .h1:hover {
+.worksContainer .h2:hover {
   color: #191919;
 }  
 
-.worksContainer .h1 {     
+.worksContainer .h2 {     
   width: auto !important;
   display: inline-block !important;
   position: relative;  
 }
 
-.worksContainer .h1:after {
+.worksContainer .h2:after {
   content: '';
   position: absolute;
   width: 100%;
@@ -49,7 +49,7 @@
   transition: transform 0.5s ease-out;
 }
 
-.worksContainer .h1:hover:after {
+.worksContainer .h2:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
@@ -101,11 +101,12 @@
     margin-left: 10%;
     margin-bottom: 0.5rem;
   }
-  .worksContainer h1 {
+  .worksContainer .h2 {
     cursor: auto;
+    font-size: 8vw !important;
   } 
 
- .workType, .workDescription, .workLink, .worksContainer .h1 {  
+ .workType, .workDescription, .workLink, .worksContainer .h2 {  
     color: #191919 !important;
   }  
   .worksContainer {

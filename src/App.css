@@ -12,13 +12,30 @@
   --second-color: #ece300;
   --third-color: white;
   --fourth-color: #e94f2d;
-  --main-bg: #191919;
+  --main-bg: #090083;
+  --main-bg: #0a0a0a;
   --second-bg: #a3a3a3;  
 }
 
 @font-face {
   font-family: 'Helvetica-Compressed';  
   src: url("./assets/Helvetica-Compressed.otf");
+}
+@font-face {
+  font-family: 'n27';  
+  src: url("./assets/N27-Regular.otf");
+}
+@font-face {
+  font-family: 'White-Inktra';  
+  src: url("./assets/ABCWhyteInktrap-Regular.otf");
+}
+@font-face {
+  font-family: 'Clash-Regular';  
+  src: url("./assets/ClashDisplay-Regular.otf");
+}
+@font-face {
+  font-family: 'Clash-Medium';  
+  src: url("./assets/ClashDisplay-Medium.otf");
 }
 
 
@@ -60,13 +77,23 @@ p, label, input, .form-control {
 .divContainer {
   padding: 2rem 0;
   /* 1rem paddin app 1rem margin navbar 28px navbar 2px border narvbar 1.5rem padding footer  */  
-  min-height: calc(100vh - 2rem - 28px - 2px - 1.5rem);
+  min-height: calc(100vh - 1rem - 38px - 2px - 1.5rem);
   transition: all 0.5s ease-in-out;
 }
 
 .h1 { 
   font-family: 'Anek Latin', sans-serif;
-  font-size: 3vw; 
+  font-family: 'n27', sans-serif;
+  font-family: 'White-Inktra', sans-serif;
+  font-family: 'Clash-Medium', sans-serif;
+  font-size: 8vw; 
+  line-height: 1em;
+  font-weight: 400; 
+}
+
+.h2 {  
+  font-family: 'Clash-Medium', sans-serif;
+  font-size: 5vw; 
   line-height: 1em;
   font-weight: 400; 
 }
@@ -96,7 +123,7 @@ input {
 
 @media screen and (max-width: 1200px) {
   .h1 {     
-    font-size: 3.5vw;      
+    font-size: 7vw;      
   }  
   .mainText {  
     font-size: 1.2vw;     
@@ -106,20 +133,20 @@ input {
 @media screen and (max-width: 992px) {
   .divContainer {   
     /* 1rem paddin app 1rem margin navbar 22px navbar 2px border narvbar 1.5rem padding footer  */  
-    min-height: calc(100vh - 2rem - 22px - 2px - 1.5rem);    
+    min-height: calc(100vh - 1rem - 26px - 2px - 1.5rem);    
   }
 }
 
 @media screen and (max-width: 576px) {
   .h1 {     
-    font-size: 5.8vw;      
+    font-size: 7vw;      
   }  
   .mainText {  
     font-size: 2.5vw;     
   }
   .divContainer {   
     /* 1rem paddin app 1rem margin navbar 17px navbar 2px border narvbar 1.5rem padding footer  */  
-    min-height: calc(100vh - 2rem - 17px - 2px - 1.5rem);    
+    min-height: calc(100vh - 1rem - 19px - 2px - 1.5rem);    
   }
   
 }

@@ -5,8 +5,9 @@
 }
 
 .projectMind {
-  min-height: calc(100vh - 2rem - 28px - 32px - 2px);  
+  min-height: calc(100vh - 1rem - 28px - 32px - 2px);  
   align-content: center !important;
+  padding-bottom: 4rem;
 }
 
 .contactContainer .h1 {
@@ -28,7 +29,8 @@
 }
 
 .medias {  
-  min-height: calc(100vh - 1.5rem - 32px);  
+  min-height: calc(100vh - 1.5rem - 32px); 
+  padding-top: 4rem; 
   align-content: center !important;
 }
 
@@ -68,7 +70,7 @@
 
 @media screen and (max-width: 992px) {  
   .projectMind {
-    min-height: calc(100vh - 2rem - 22px - 32px - 2px);    
+    min-height: calc(100vh - 1rem - 22px - 32px - 2px);    
   } 
 
   .media {    
@@ -85,7 +87,7 @@
 
 @media screen and (max-width: 576px) {  
   .projectMind {
-    min-height: calc(100vh - 2rem - 17px - 32px - 2px);    
+    min-height: calc(100vh - 1rem - 17px - 32px - 2px);    
   }
   .media {    
     top: calc(100vh - 1rem - 0.7rem);    
