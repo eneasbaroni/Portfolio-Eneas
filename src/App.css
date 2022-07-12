@@ -139,7 +139,7 @@ input {
 
 @media screen and (max-width: 576px) {
   .h1 {     
-    font-size: 7vw;      
+    font-size: 10vw;      
   }  
   .mainText {  
     font-size: 2.5vw;     
