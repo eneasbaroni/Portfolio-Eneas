@@ -49,10 +49,18 @@ const Contact = () => {
           <div><a className="mediaLink h1" href="https://www.instagram.com/mr_eneas/" target="_blank" rel="noreferrer">INSTAGRAM</a></div>
           <div><a className="mediaLink h1" href="https://github.com/eneasbaroni" target="_blank" rel="noreferrer">GITHUB</a></div>
           <div><a className="mediaLink h1" href="https://www.linkedin.com/in/eneasbaroni" target="_blank" rel="noreferrer">LINKEDIN</a></div>
-          <a className="cv col-12 row" href="/docs/CV_BARONI_Eneas.pdf" target="_blank" rel="noreferrer" download>
-            <p className='mainText'>CV</p>
-            <p className='mainText'>=</p>
-          </a>
+          {lang === "esp"
+            ?
+              <a className="cv col-12 row" href="/docs/CV_BARONI_Eneas.pdf" target="_blank" rel="noreferrer" download>
+                <p className='mainText'>CV</p>
+                <p className='mainText'>=</p>
+              </a>
+            :
+              <a className="cv col-12 row" href="/docs/Resume_BARONI_Eneas.pdf" target="_blank" rel="noreferrer" download>
+                <p className='mainText'>RESUME</p>
+                <p className='mainText'>=</p>
+              </a>
+          }
         </div>
       </div>      
     </div>
