@@ -21,8 +21,8 @@
     height: 2rem;
     margin: 8px;
     border-radius: 50%;
-    border: 6px solid #191919;
-    border-color: #191919 transparent #191919 transparent;
+    border: 6px solid #f2eadf;
+    border-color: #f2eadf transparent #f2eadf transparent;
     animation: loader 1.2s linear infinite;
   }
   

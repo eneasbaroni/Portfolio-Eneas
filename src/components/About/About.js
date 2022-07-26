@@ -22,7 +22,7 @@ const About = () => {
   
 
   return (
-    <div className="divContainer aboutContainer col-12 row" style={{opacity: `${visible}`}}>
+    <main className="divContainer aboutContainer col-12 row" style={{opacity: `${visible}`}}>
       <div className="col-12 row">
         {lang === "esp"
           ?
@@ -68,7 +68,7 @@ const About = () => {
               </>
           }
       </div>
-    </div>
+    </main>
   )
 }
 

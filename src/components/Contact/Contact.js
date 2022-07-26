@@ -20,7 +20,7 @@ const Contact = () => {
   }, [language])
 
   return (
-    <div className="divContainer contactContainer col-12 row text-center" id='mailme' style={{opacity: `${visible}`}}>
+    <main className="divContainer contactContainer col-12 row text-center" id='mailme' style={{opacity: `${visible}`}}>
       <div className='col-12 projectMind row'>
       {lang === "esp"
         ? 
@@ -63,7 +63,7 @@ const Contact = () => {
           }
         </div>
       </div>      
-    </div>
+    </main>
   )
 }
 

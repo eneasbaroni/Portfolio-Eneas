@@ -30,7 +30,7 @@ const Navbar = () => {
 
   return (
 
-    <>
+    <header>
       <div className="header row">
         <div className="col-12 px-2 row justify-content-between">
 
@@ -66,7 +66,7 @@ const Navbar = () => {
         }
         </div>
       </div>
-    </>
+    </header>
 
     )    
 }

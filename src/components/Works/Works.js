@@ -48,7 +48,7 @@ const Works = () => {
   
   return (
     
-    <div className="divContainer col-12 m-auto row align-items-center justify-content-start" style={{opacity: `${visible}`}}>
+    <main className="divContainer col-12 m-auto row align-items-center justify-content-start" style={{opacity: `${visible}`}}>
       <img className="col-6 workImg" src="/images/eos.png" alt="preload" style={{display: "none"}}/>                    
       <img className="col-6 workImg" src="/images/leCadre.png" alt="preload" style={{display: "none"}}/>                    
       <img className="col-6 workImg" src="/images/picante.png" alt="preload" style={{display: "none"}} onLoad={handleLoad}/> 
@@ -80,7 +80,7 @@ const Works = () => {
           { windowSize > 767 && <img className="col-8 workImg" src={currentw} alt="workImg"/>}
         </>
       }                
-    </div>
+    </main>
     
   )
 }

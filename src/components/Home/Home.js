@@ -30,7 +30,7 @@ const Home = () => {
 
 
   return (
-    <div className="divContainer col-12 m-auto row align-items-center justify-content-center justify-content-sm-end"  id="home" style={{opacity: `${visible}`}}>        
+    <main className="divContainer col-12 m-auto row align-items-center justify-content-center justify-content-sm-end"  id="home" style={{opacity: `${visible}`}}>        
       <div className="col-12 row text-start">
         {lang === "esp"
         ?         
@@ -82,7 +82,7 @@ const Home = () => {
           </>
       }
       </div>      
-    </div>
+    </main>
   )
 }
 

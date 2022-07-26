@@ -21,7 +21,7 @@ const Footer = () => {
 
   
   return (
-    <div className="footer aling-items-center row">
+    <footer className="footer aling-items-center row">
       <div className="col-12 row justify-content-between aling-items-center">
         <div className="navbarContainer col-8 row aling-items-center justify-content-start">
           {development
@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
       </div>
 
-    </div>
+    </footer>
   )
 }
 
