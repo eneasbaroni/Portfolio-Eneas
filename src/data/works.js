@@ -1,48 +1,48 @@
 const esp = [
   {    
     title: "Eos Shoes",
-    type: "2022/Personal",
+    type: "2022/Personal - Diseño y Desarrollo",
     description: "Proyecto Final para curso de Coderhouse",
     url: "/images/eos.png",
     web: "https://eos-shoes.netlify.app/"
   }, 
   {    
     title: "Le Cadre",
-    type: "2022/Personal",
+    type: "2022/Personal - Diseño y Desarrollo",
     description: "Proyecto Final para curso de Coderhouse",
     url: "/images/leCadre.png",
     web: "https://eneasbaroni.github.io/LeCadre-Baroni/"
   },  
   {    
     title: "Picante",
-    type: "2021/Freelance",
+    type: "2021/Freelance - Diseño y Desarrollo",
     description: "Sitio Web Institucional para Picante Serigrafía",
     url: "/images/picante.png",
-    web: "https://picante-serigrafia.netlify.app/"
+    web: "https://picante-serigrafia.com.ar/"
   }
 ]
 
 const eng = [
   {    
     title: "Eos Shoes",
-    type: "2022/Personal",
+    type: "2022/Personal - Design & Development",
     description: "Coderhouse Institute final project",
     url: "/images/eos.png",
     web: "https://eos-shoes.netlify.app/"
   }, 
   {    
     title: "Le Cadre",
-    type: "2022/Personal",
+    type: "2022/Personal - Design & Development",
     description: "Coderhouse Institute final project",
     url: "/images/leCadre.png",
     web: "https://eneasbaroni.github.io/LeCadre-Baroni/"
   },  
   {    
     title: "Picante",
-    type: "2021/Freelance",
+    type: "2021/Freelance - Design & Development",
     description: "Institutional Web site for 'Picante Serigrafía'",
     url: "/images/picante.png",
-    web: "https://picante-serigrafia.netlify.app/"
+    web: "https://picante-serigrafia.com.ar/"
   }
 ]
 
