@@ -77,7 +77,7 @@ const Works = () => {
                 </>
             }
           </div>
-          { windowSize > 767 && <img className="col-8 workImg" src={currentw} alt="workImg"/>}
+          { windowSize > 767 && <a href={`${esp[currentId].web}`} target="_blank" rel="noreferrer" className="col-8 workImgContainer"><img className="workImg" src={currentw} alt="workImg"/></a>}
         </>
       }                
     </main>
