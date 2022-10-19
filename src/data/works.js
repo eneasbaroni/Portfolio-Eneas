@@ -7,6 +7,13 @@ const esp = [
     web: "https://eos-shoes.netlify.app/"
   }, 
   {    
+    title: "Woodworth",
+    type: "2022/Freelance - Desarrollo",
+    description: "Sitio Web Institucional para Woodworth Capital",
+    url: "/images/woodworth.png",
+    web: "https://woodworth.netlify.app/"
+  },
+  {    
     title: "Le Cadre",
     type: "2022/Personal - Diseño y Desarrollo",
     description: "Proyecto Final para curso de Coderhouse",
@@ -19,7 +26,7 @@ const esp = [
     description: "Sitio Web Institucional para Picante Serigrafía",
     url: "/images/picante.png",
     web: "https://picante-serigrafia.com.ar/"
-  }
+  } 
 ]
 
 const eng = [
@@ -30,6 +37,13 @@ const eng = [
     url: "/images/eos.png",
     web: "https://eos-shoes.netlify.app/"
   }, 
+  {    
+    title: "Woodworth",
+    type: "2022/Freelance - Development",
+    description: "Institutional Web site for Woodworth Capital",
+    url: "/images/woodworth.png",
+    web: "https://woodworth.netlify.app/"
+  },
   {    
     title: "Le Cadre",
     type: "2022/Personal - Design & Development",

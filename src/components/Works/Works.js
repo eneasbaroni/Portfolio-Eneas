@@ -51,13 +51,14 @@ const Works = () => {
     <main className="divContainer col-12 m-auto row align-items-center justify-content-start" style={{opacity: `${visible}`}}>
       <img className="col-6 workImg" src="/images/eos.png" alt="preload" style={{display: "none"}}/>                    
       <img className="col-6 workImg" src="/images/leCadre.png" alt="preload" style={{display: "none"}}/>                    
+      <img className="col-6 workImg" src="/images/woodworth.png" alt="preload" style={{display: "none"}}/>                    
       <img className="col-6 workImg" src="/images/picante.png" alt="preload" style={{display: "none"}} onLoad={handleLoad}/> 
       {loading 
       ?
        <Loader/>
       :
         <>
-          <div className="col-12 col-md-4 worksContainer">
+          <div className="col-12 col-md-5 worksContainer">
             {lang === "esp"
               ?
                 <>
@@ -77,7 +78,7 @@ const Works = () => {
                 </>
             }
           </div>
-          { windowSize > 767 && <a href={`${esp[currentId].web}`} target="_blank" rel="noreferrer" className="col-8 workImgContainer"><img className="workImg" src={currentw} alt="workImg"/></a>}
+          { windowSize > 767 && <a href={`${esp[currentId].web}`} target="_blank" rel="noreferrer" className="col-7 workImgContainer"><img className="workImg" src={currentw} alt="workImg"/></a>}
         </>
       }                
     </main>
