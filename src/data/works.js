@@ -7,6 +7,13 @@ const esp = [
     web: "https://eos-shoes.netlify.app/"
   }, 
   {    
+    title: "M-R Constr.",
+    type: "2022/Freelance - Diseño y Desarrollo - En Proceso",
+    description: "Sitio Web Institucional para Martinez-Rubiano Construcciones",
+    url: "/images/martinez.png",
+    web: "https://martinez-rubiano.netlify.app/"
+  }, 
+  {    
     title: "Woodworth",
     type: "2022/Freelance - Desarrollo",
     description: "Sitio Web Institucional para Woodworth Capital",
@@ -36,6 +43,13 @@ const eng = [
     description: "Coderhouse Institute final project",
     url: "/images/eos.png",
     web: "https://eos-shoes.netlify.app/"
+  }, 
+  {    
+    title: "M-R Constr.",
+    type: "2022/Freelance - Design & Development - WIP",
+    description: "Institutional Web site for Martinez-Rubiano Construcciones",
+    url: "/images/martinez.png",
+    web: "https://martinez-rubiano.netlify.app/"
   }, 
   {    
     title: "Woodworth",
