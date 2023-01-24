@@ -11,7 +11,7 @@ const esp = [
     type: "2022/Freelance - Diseño y Desarrollo - En Proceso",
     description: "Sitio Web Institucional para Martinez-Rubiano Construcciones",
     url: "/images/martinez.png",
-    web: "https://martinez-rubiano.netlify.app/"
+    web: "https://martinez-rubiano-construcciones.netlify.app/"
   }, 
   {    
     title: "Woodworth",
