@@ -1,0 +1,117 @@
+.aboutContainer {
+  align-content: space-between; 
+}
+
+.aboutContainer .titleContainer {
+  grid-column: auto / span 12; 
+  display: grid; 
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.aboutContainer .titleContainer .h2 {
+  grid-column: auto / span 3;    
+  margin-bottom: 1rem;
+}
+
+.aboutContainer .imgContainer {
+  grid-column: auto / span 12; 
+  display: flex;    
+}
+
+.aboutContainer .selfie { 
+  margin: 1rem 0;
+  border-radius: 0; 
+  width: 100%; 
+  height: 60vh;  
+  object-fit: cover;  
+  object-position: center;
+}
+
+.aboutContainer .infoContainer {
+  grid-column: auto / span 12;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutContainer .aboutText {
+  width: 100%;
+  display: flex; 
+  flex-direction: row;  
+  padding: 0.5rem 0 0 0;  
+  border-top: solid 1px white;
+  margin: 0.5rem 0;
+}
+
+.aboutContainer .aboutText .h2 {    
+  width: 60%;
+}
+
+.aboutText div {  
+  width: 40%; 
+  display: flex;
+  justify-content: flex-end;
+}
+
+.aboutText div p {  
+  width: 100%; 
+  font-size: 1vw; 
+  font-weight: 200; 
+  letter-spacing: -0.03em;
+  line-height: 1.1em;
+  text-align: end;  
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutText div p {  
+    font-size: 1.2vw;     
+  }
+}
+
+@media screen and (max-width: 992px) { 
+  .aboutContainer .selfie {  
+    height: auto !important;
+    width: 100% !important; 
+    margin: 0 0 0.5rem;
+  }     
+}
+
+@media screen and (max-width: 767px) {  
+
+  .aboutContainer .aboutText{
+    padding-left: 20%;    
+    flex-direction: column;
+    margin: 0.25rem 0
+  }
+
+  .aboutContainer .aboutText .h2 {    
+    width: 100%;
+    text-align: end;
+  }
+  
+  .aboutText div {  
+    width: 100%; 
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .aboutText div p {  
+    width: 100%; 
+    font-size: 2vw; 
+    font-weight: 200; 
+    letter-spacing: -0.03em;
+    line-height: 1.1em;
+    text-align: end;  
+  }
+  
+  .aboutText {    
+    padding-right: 0;  
+    padding-left: 20%;  
+  }
+ 
+}
+
+@media screen and (max-width: 576px) { 
+  .aboutText div p {  
+    font-size: 3vw;     
+  }    
+}

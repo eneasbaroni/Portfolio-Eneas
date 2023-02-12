@@ -1,3 +1,10 @@
+#home div {
+  grid-column: auto / span 12;  
+}
+
+#home div div{
+  margin-bottom: 0.5rem;
+}
 
 .logo {
   object-fit: contain;
