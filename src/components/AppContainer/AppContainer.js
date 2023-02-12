@@ -12,7 +12,7 @@ const AppContainer = (props) => {
     }else{
       setColor("#090083")
     }    
-  }, [location])
+  }, [location]) 
 
 
 
