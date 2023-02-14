@@ -1,13 +1,26 @@
 .header {  
   width: 100%;
+  padding-inline: 0.5rem;
   /* margin-top: 1rem;   */
   transition: all 0.5 ease-in-out;
   border: solid 1px var(--main-color);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  justify-content: center;
+  align-items: center;
 }
 
 .linkHome {
+  grid-column: auto / span 4;
   font-size: 1.2rem;
   font-family: 'White-Inktra', sans-serif;
+}
+
+.navbarContainer {
+  grid-column: auto / span 8;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .navItem {
@@ -21,12 +34,18 @@
   align-self: center !important;     
 }
 
+.active {
+  color: var(--third-color);
+}
+
 .footer .navItem {  
   margin: 0 1rem 0 0;
 }
 
 .menu {
   margin-top: -2px;
+  grid-column: auto / span 5;
+  justify-self: flex-end;
 }
 
 @media screen and (max-width: 992px) {
@@ -39,13 +58,74 @@
 }
 
 @media screen and (max-width: 576px) {
-  .header .navbarContainer .navItem {     
+  .header .navbarContainer{     
     padding-top: 0.5rem;
   }
-  .navItem {     
-    font-size: 0.5rem;
+
+  .navbarContainer {
+    grid-column: auto / span 12;
   }
+
   .linkHome {
+    grid-column: auto / span 7;
     font-size: 0.8rem;
   }
+
+}
+
+/* Mobile Navbar */
+.mobileNavbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh; 
+  display: flex; 
+  flex-direction: column;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--second-bg);
+  z-index: 90;
+  transition: all 0.5s ease-in-out;
+  color: var(--main-bg);
+}
+
+.mobileNavbar .mobileHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-between;
+  align-content:center;  
+  padding: 1rem; 
+}
+
+.mobileNavbar .mobileHeader h3 {  
+  font-size: 5vw;
+  font-weight: 300;
+  color: var(--main-bg);
+}
+
+.mobileNavbar .mobileLinks {
+  width: 100%;
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-content:flex-start;
+  text-align: left;
+  padding: 0 1rem;
+  height: 80%;
+  color: var(--main-bg);
+}
+
+.mobileNavbar .navItem {
+  display: inline;
+  font-size: 10vw;
+  width: 100% !important;
+  text-align: left;
+  border-bottom: 1px solid var(--main-bg);
+  height: 8vw;
+  overflow: hidden;
+  margin-top: 2vw;
+  color: var(--main-bg);
 }

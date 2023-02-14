@@ -20,8 +20,8 @@ const Contact = () => {
   }, [language])
 
   return (
-    <main className="divContainer contactContainer col-12 row text-center" id='mailme' style={{opacity: `${visible}`}}>
-      <div className='col-12 projectMind row'>
+    <main className="divContainer contactContainer" id='mailme' style={{opacity: `${visible}`}}>
+      <div className='projectMind'>
       {lang === "esp"
         ? 
           <>
@@ -36,9 +36,9 @@ const Contact = () => {
       }
       </div>
         <a href="#medias" className='media'><p>↓</p></a>        
-        <a href="#app" className='mailmeArrow'><p>↑</p></a>        
-      <div className='col-12 row'>
-        <div className='medias col-12 row aling-items-center' id="medias">
+        <a href="#app" className='mailmeArrow' id='medias'><p>↑</p></a>        
+      <div className='linksContainer'>
+        <div>
           {lang === "esp"
             ? 
               <p className='mainText'>o puedes encontrame en las redes</p>
@@ -51,13 +51,13 @@ const Contact = () => {
           <div><a className="mediaLink h1" href="https://www.linkedin.com/in/eneasbaroni" target="_blank" rel="noreferrer">LINKEDIN</a></div>
           {lang === "esp"
             ?
-              <a className="cv col-12 row" href="/docs/CV_BARONI_Eneas.pdf" target="_blank" rel="noreferrer" download>
-                <p className='mainText'>CV</p>
+              <a className="cv" href="/docs/CV_BARONI_Eneas.pdf" target="_blank" rel="noreferrer" download>
+                <p className='mainText'>Descargar CV</p>
                 <p className='mainText'>=</p>
               </a>
             :
-              <a className="cv col-12 row" href="/docs/Resume_BARONI_Eneas.pdf" target="_blank" rel="noreferrer" download>
-                <p className='mainText'>RESUME</p>
+              <a className="cv" href="/docs/Resume_BARONI_Eneas.pdf" target="_blank" rel="noreferrer" download>
+                <p className='mainText'>Download RESUME</p>
                 <p className='mainText'>=</p>
               </a>
           }

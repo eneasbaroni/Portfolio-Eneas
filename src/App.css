@@ -1,21 +1,34 @@
 /* MIS ESTILOS */
-/* :root {
-  --main-color: #191919;
-  --second-color: #ece300;
-  --third-color: white;
-  --fourth-color: #e94f2d;
-  --main-bg: #f2eadf;
-  --second-bg: #babdb6;  
-} */
+
 :root {  
-  --main-color: #f2eadf;
-  --second-color: #ece300;
-  --third-color: white;
-  --fourth-color: #e94f2d;
-  --main-bg: #090083;
-  --main-bg: #0a0a0a;
-  --second-bg: #a3a3a3;  
+  --main-color: #f2ebda;
+  --second-color: #0f0f11;
+  --third-color: #c3e0c5;  
+  --main-bg: #0f0f11;
+  --second-bg: #f2ebda;  
 }
+/* :root {  
+  --main-color: #040a1b;
+  --second-color: #f2eadf;
+  --third-color: #040a1b;  
+  --main-bg: #e78249;
+  --second-bg: #0a0a0a;  
+} */
+/* :root {  
+  --main-color: #c3e0c5;
+  --second-color: #f2eadf;
+  --third-color: #9ed472;  
+  --main-bg: #1f1f1f;
+  --second-bg: #0a0a0a;  
+}
+:root {  
+  --main-color: #e14d22;
+  --second-color: #f2eadf;
+  --third-color: #e7bbaf;  
+  --main-bg: #1d0b0c;
+  --second-bg: #0a0a0a;  
+} */
+
 
 @font-face {
   font-family: 'Helvetica-Compressed';  
@@ -89,6 +102,8 @@ p, label, input, .form-control {
   transition: all 0.5s ease-in-out;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  justify-content: center;
+  align-items: center;
 }
 
 .h1 { 
@@ -128,7 +143,9 @@ input {
 
 .App {
   padding-top: 1rem;
-  min-height: 100vh;  
+  min-height: 100vh;
+  padding-inline: 2.5rem; 
+  background-color: var(--main-bg); 
 }
 
 @media screen and (max-width: 1200px) {
@@ -147,6 +164,12 @@ input {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .App {    
+    padding-inline: 1.5rem;  
+  }
+}
+
 @media screen and (max-width: 576px) {
   .h1 {     
     font-size: 10vw;      
@@ -156,7 +179,7 @@ input {
   }
   .divContainer {   
     /* 1rem paddin app 1rem margin navbar 17px navbar 2px border narvbar 1.5rem padding footer  */  
-    min-height: calc(100vh - 1rem - 21px - 2px - 1.5rem);    
+    min-height: calc(100vh - 1rem - 21px);    
   }
   
 }

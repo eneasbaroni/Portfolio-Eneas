@@ -1,10 +1,12 @@
 .loaderContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;  
-    margin-top: 30vh;
-    justify-content: center !important;
-    align-items: center !important;
-    align-content: center !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
   }
   
   .loader {

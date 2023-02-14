@@ -1,7 +1,14 @@
 .footer {  
   width: 100%; 
-  height: 1rem;
-  padding-bottom: 1.5rem;
+  height: 1.5rem;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.langContainer {
+  display: flex;
+  flex-direction: row;
 }
 
 .languageSelector {
@@ -24,6 +31,63 @@
 
 @media screen and (max-width: 576px) {
   .languageSelector { 
-    font-size: 0.4rem;
+    font-size: 0.6rem;
   }  
+  .footer {     
+    height: auto;
+    width: 100vw;
+    margin-left: -1.5rem; 
+    background-color: var(--second-bg);     
+  }
 }
+
+/* Mobile Footer */
+
+.mobileFooter {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;  
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--second-bg);
+}
+
+.mobileFooter img {
+  width: 20vw;
+  height: 20vw;  
+  padding: 0.5rem 0.5rem;
+  margin: 2rem auto;
+  object-fit: contain;
+  filter: invert(90%) sepia(17%) saturate(263%) hue-rotate(340deg) brightness(106%) contrast(90%);
+  background-color: var(--second-bg);
+  border-radius: 50%;
+}
+
+.mobileFooter div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobileFooterLink {
+  text-align: center;
+}
+
+.mobileFooter p, .mobileFooter a {
+  font-size: 1rem;  
+  font-weight: 300;
+  margin: 0.2rem 0;
+  text-align: center;
+  color: var(--main-bg);
+}
+
+.footerRights {
+  width: 80%;
+  margin: 0 auto;
+  border-top: 1px solid var(--second-color);
+}
+
+
+
+
