@@ -6,8 +6,8 @@ import menu from "../../assets/menu.svg"
 import "./navbar.css"
 import MobileMenu from "./MobileMenu"
 
-const menuLight = {
-  filter: "invert(90%) sepia(17%) saturate(263%) hue-rotate(340deg) brightness(106%) contrast(90%)"
+const menuLight = {  
+  filter: "invert(99%) sepia(1%) saturate(0%) hue-rotate(18deg) brightness(106%) contrast(101%)"
 }
 
 const Navbar = () => {  

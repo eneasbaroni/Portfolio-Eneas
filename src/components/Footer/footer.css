@@ -58,7 +58,7 @@
   padding: 0.5rem 0.5rem;
   margin: 2rem auto;
   object-fit: contain;
-  filter: invert(90%) sepia(17%) saturate(263%) hue-rotate(340deg) brightness(106%) contrast(90%);
+  filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(18deg) brightness(106%) contrast(101%);
   background-color: var(--second-bg);
   border-radius: 50%;
 }
