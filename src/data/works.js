@@ -7,6 +7,13 @@ const esp = [
     web: "https://eos-shoes.netlify.app/"
   }, 
   {    
+    title: "D'art",
+    type: "2023/Personal - Diseño y Desarrollo",
+    description: "Caso de Estudio",
+    url: "/images/dart-06.png",
+    web: "https://dart-ceramica.netlify.app/"
+  }, 
+  {    
     title: "M-R Constr.",
     type: "2022/Freelance - Diseño y Desarrollo - En Proceso",
     description: "Sitio Web Institucional para Martinez-Rubiano Construcciones",
@@ -43,6 +50,13 @@ const eng = [
     description: "Coderhouse Institute final project",
     url: "/images/eos.png",
     web: "https://eos-shoes.netlify.app/"
+  },
+  {    
+    title: "D'art",
+    type: "2023/Personal - Design & Development",
+    description: "Case Study",
+    url: "/images/dart-06.png",
+    web: "https://dart-ceramica.netlify.app/"
   }, 
   {    
     title: "M-R Constr.",

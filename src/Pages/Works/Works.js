@@ -52,6 +52,7 @@ const Works = () => {
       <img className="workImg" src="/images/eos.png" alt="preload" style={{display: "none"}}/>                    
       <img className="workImg" src="/images/leCadre.png" alt="preload" style={{display: "none"}}/>                    
       <img className="workImg" src="/images/woodworth.png" alt="preload" style={{display: "none"}}/>                    
+      <img className="workImg" src="/images/dart-06.png" alt="preload" style={{display: "none"}}/>                    
       <img className="workImg" src="/images/picante.png" alt="preload" style={{display: "none"}} onLoad={handleLoad}/> 
       {loading 
       ?
