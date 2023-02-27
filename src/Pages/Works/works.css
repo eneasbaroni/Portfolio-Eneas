@@ -17,7 +17,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 10vw;
+  height: 11vw;
 }
 
 .work:hover {
@@ -25,9 +25,13 @@
   height: 400px;
 }
 
-.workInfo {
+.workInfo{
+  text-align: end;  
+}
+
+.workInfo p, .workInfo a {
   text-align: end;
-  font-size: 1vw;   
+  font-size: 1rem;   
   letter-spacing: -0.03em;
   line-height: 1.1em;
   margin-left: 0.4vw; 
@@ -62,10 +66,7 @@
   margin-top: 0.5rem;
 } 
 
-.workLink {
-  /* border: solid red; */  
-  font-size: 0.9vw;
-  width: auto !important;
+.workLink { 
   display: inline-block !important;
   position: relative;  
 }
@@ -88,13 +89,6 @@
   transform-origin: bottom left;
 }
 
-
-@media screen and (max-width: 1200px) {
-  .workType, .workDescription, .workLink { 
-    font-size: 1.2vw;
-  }
-}
-
 @media screen and (max-width: 768px) { 
   
   .work {      
@@ -111,23 +105,25 @@
 
   .work:hover {    
     height: 200px;
-  }
-  
+  }  
 
   .worksContainer .h2 {
     cursor: auto;
     font-size: 8vw !important;
   } 
 
-  .workInfo {
-    text-align: start;    
+  .workInfo p, .workInfo .workLink {
+    text-align: start;      
+    width: 100% !important;
+    font-size: calc(8px + 1.5vw) !important;    
   } 
   
 }
 
-@media screen and (max-width: 576px) {   
-  .workType, .workDescription, .workLink {  
-    font-size: 2.5vw;     
-  }   
-}
+@media screen and (max-width: 576px) { 
+  
+  .workInfo p, .workInfo .workLink {
+    font-size: calc(8px + 2.5vw) !important;    
+  } 
 
+}
