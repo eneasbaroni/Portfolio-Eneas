@@ -7,10 +7,7 @@ import "./works.css"
 
 const Works = () => {
   const [loading, setLoading] = useState(true)
-  const [visible, setVisible] = useState(0)
-  const [currentId, setCurrentId] = useState(0)
-  const [currentw, setCurrentw] = useState(esp[0].url)
-  const [windowSize, setWindowSize] = useState(window.innerWidth)  
+  const [visible, setVisible] = useState(0)    
   const [lang, setLang] = useState()
 
   const {language} = useContext (LanguageContext)
@@ -28,32 +25,16 @@ const Works = () => {
 
   const handleLoad = () => {
     setLoading(false);    
-  }
-
-
-  useEffect(() => {
-    const handleResize = () => {
-      setWindowSize(window.innerWidth) 
-    }
-    window.addEventListener("resize", handleResize);
-    handleResize();  
-    return () => window.removeEventListener("resize", handleResize);
-  }, [])
-
-  const setcurrent = (x) => {     
-    setCurrentw(esp[x].url)
-    setCurrentId(x)
-           
-  }   
+  } 
   
   return (
     
     <main className="divContainer" id="works" style={{opacity: `${visible}`}}>
-      <img className="workImg" src="/images/eos.png" alt="preload" style={{display: "none"}}/>                    
-      <img className="workImg" src="/images/leCadre.png" alt="preload" style={{display: "none"}}/>                    
-      <img className="workImg" src="/images/woodworth.png" alt="preload" style={{display: "none"}}/>                    
-      <img className="workImg" src="/images/dart-06.png" alt="preload" style={{display: "none"}}/>                    
-      <img className="workImg" src="/images/picante.png" alt="preload" style={{display: "none"}} onLoad={handleLoad}/> 
+      <img className="workImg" src="/images/eos-2.png" alt="preload" style={{display: "none"}}/>                    
+      <img className="workImg" src="/images/leCadre-2.png" alt="preload" style={{display: "none"}}/>                    
+      <img className="workImg" src="/images/woodworth-2.png" alt="preload" style={{display: "none"}}/>                    
+      <img className="workImg" src="/images/dart-2.png" alt="preload" style={{display: "none"}}/>                    
+      <img className="workImg" src="/images/picante-2.png" alt="preload" style={{display: "none"}} onLoad={handleLoad}/> 
       {loading 
       ?
        <Loader/>
@@ -65,7 +46,7 @@ const Works = () => {
                 <>
                   {esp.map ((el, i) => {
                     return (
-                      <Work work={el} setCurrent={setcurrent} key={i} id={i} currentId={currentId}/>                    
+                      <Work work={el} key={i} id={i}/>                    
                       )
                     })} 
                 </>
@@ -73,13 +54,12 @@ const Works = () => {
                 <>
                   {eng.map ((el, i) => {
                     return (
-                      <Work work={el} setCurrent={setcurrent} key={i} id={i} currentId={currentId}/>                    
+                      <Work work={el} key={i} id={i}/>                    
                       )
                     })} 
                 </>
             }
           </div>
-          { windowSize > 767 && <a href={`${esp[currentId].web}`} target="_blank" rel="noreferrer" className="workImgContainer"><img className="workImg" src={currentw} alt="workImg"/></a>}
         </>
       }                
     </main>
