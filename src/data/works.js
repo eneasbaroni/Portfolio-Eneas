@@ -1,5 +1,12 @@
 const esp = [
   {    
+    title: "Modus",
+    type: "2023/Freelance - Desarrollo",
+    description: "Sitio Web Institucional para Modus",
+    url: "/images/modus.png",
+    web: "https://somosmodus.com/"
+  },
+  {    
     title: "Eos Shoes",
     type: "2022/Personal - Diseño y Desarrollo",
     description: "Proyecto Final para curso de Coderhouse",
@@ -44,6 +51,13 @@ const esp = [
 ]
 
 const eng = [
+  {    
+    title: "Modus",
+    type: "2023/Freelance - Design",
+    description: "Institutional Web site for Modus",
+    url: "/images/modus.png",
+    web: "https://somosmodus.com/"
+  },
   {    
     title: "Eos Shoes",
     type: "2022/Personal - Design & Development",
