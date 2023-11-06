@@ -21,6 +21,13 @@ const esp = [
     web: "https://dart-ceramica.netlify.app/"
   }, 
   {    
+    title: "Noe CM",
+    type: "2023/Personal - Diseño y Desarrollo",
+    description: "Portfolio Web para Noelia Torres",
+    url: "/images/noe-2.png",
+    web: "https://noeliatorres.com.ar/"
+  }, 
+  {    
     title: "M-R Constr.",
     type: "2022/Freelance - Diseño y Desarrollo - En Proceso",
     description: "Sitio Web Institucional para Martinez-Rubiano Construcciones",
@@ -71,6 +78,13 @@ const eng = [
     description: "Case Study",
     url: "/images/dart-06.png",
     web: "https://dart-ceramica.netlify.app/"
+  }, 
+  {    
+    title: "Noe CM",
+    type: "2023/Personal - Design & Development",
+    description: "Web Portfolio for Noelia Torres",
+    url: "/images/noe-2.png",
+    web: "https://noeliatorres.com.ar/"
   }, 
   {    
     title: "M-R Constr.",
