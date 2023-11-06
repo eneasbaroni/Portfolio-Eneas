@@ -35,6 +35,13 @@ const esp = [
     web: "https://martinez-rubiano-construcciones.netlify.app/"
   }, 
   {    
+    title: "Habiles",
+    type: "2023/Freelance - Diseño y Desarrollo",
+    description: "Calendario web de uso institucional",
+    url: "/images/habiles.png",
+    web: "https://habiles.com.ar/"
+  },
+  {    
     title: "Woodworth",
     type: "2022/Freelance - Desarrollo",
     description: "Sitio Web Institucional para Woodworth Capital",
@@ -93,6 +100,13 @@ const eng = [
     url: "/images/martinez.png",
     web: "https://martinez-rubiano.netlify.app/"
   }, 
+  {    
+    title: "Habiles",
+    type: "2023/Freelance - Design & Development",
+    description: "Web calendar for institutional use",
+    url: "/images/habiles.png",
+    web: "https://habiles.com.ar/"
+  },
   {    
     title: "Woodworth",
     type: "2022/Freelance - Development",
