@@ -76,14 +76,14 @@ const eng = [
     title: "Eos Shoes",
     type: "2022/Personal - Design & Development",
     description: "Coderhouse Institute final project",
-    url: "/images/eos.png",
+    url: "/images/eos-2.png",
     web: "https://eos-shoes.netlify.app/"
   },
   {    
     title: "D'art",
     type: "2023/Personal - Design & Development",
     description: "Case Study",
-    url: "/images/dart-06.png",
+    url: "/images/dart-2.png",
     web: "https://dart-ceramica.netlify.app/"
   }, 
   {    
@@ -97,7 +97,7 @@ const eng = [
     title: "M-R Constr.",
     type: "2022/Freelance - Design & Development - WIP",
     description: "Institutional Web site for Martinez-Rubiano Construcciones",
-    url: "/images/martinez.png",
+    url: "/images/martinez-2.png",
     web: "https://martinez-rubiano.netlify.app/"
   }, 
   {    
@@ -111,21 +111,21 @@ const eng = [
     title: "Woodworth",
     type: "2022/Freelance - Development",
     description: "Institutional Web site for Woodworth Capital",
-    url: "/images/woodworth.png",
+    url: "/images/woodworth-2.png",
     web: "https://woodworth.netlify.app/"
   },
   {    
     title: "Le Cadre",
     type: "2022/Personal - Design & Development",
     description: "Coderhouse Institute final project",
-    url: "/images/leCadre.png",
+    url: "/images/leCadre-2.png",
     web: "https://eneasbaroni.github.io/LeCadre-Baroni/"
   },  
   {    
     title: "Picante",
     type: "2021/Freelance - Design & Development",
     description: "Institutional Web site for 'Picante Serigrafía'",
-    url: "/images/picante.png",
+    url: "/images/picante-2.png",
     web: "https://picante-serigrafia.com.ar/"
   }
 ]
